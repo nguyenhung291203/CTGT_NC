@@ -22,8 +22,12 @@ public class Bai1 {
                 System.out.println("Du lieu dau vao sai");
                 return;
             }
-            int kq = giaiThua(n);
-            System.out.println(kq);
+            
+            for (int i=0;i<=n;i++){
+            int kq = giaiThua(i);    
+            System.out.println(String.format("%s! = %s",i,kq));
+            }
+            
         } catch (Exception e) {
             System.out.println("Da co loi xay ra vui long thu lai");
         }
